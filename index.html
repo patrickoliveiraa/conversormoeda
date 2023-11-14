@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="icon" type="image/x-icon" href="ico/59825-litecoin-gold-exchange-bitcoin-sales-cryptocurrency-coinbase_32x32.ico">
+   <meta charset="UTF-8">
+   <title>Conversor de Moedas</title> 
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link rel="stylesheet"  href="Estilo/principal.css">   
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="conversor.js"></script>
+   <header>
+    <nav>
+      <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="Sobre.html">Sobre</a></li>
+          <li><a href="Contato.html">Contato</a></li>
+      </ul>
+  </nav>
+   </header>
+   
+
+</head>
+<body>
+
+  <div id="interface"> 
+      <h1 id="titulo">💱  Conversor de Moedas</h1> 
+      <label>Valor:</label> </span>  
+      <input id="entrada" type="number">   
+         
+        <select id="moedas">
+              <option value='NULL'>Selecione</option>
+              <option value='EUR'>Euro</option>
+              <option value='USD'>Dólar</option>
+              <option value='USDT'>Dólar turismo</option>
+              <option value='CAD'>Dólar canadense</option>
+              <option value='AUD'>Dólar australiano</option>
+              <option value='GBP'>Libra Esterlina</option>
+              <option value='ARS'>Peso argentino</option>
+              <option value='JPY'>Iene Japonês</option>
+              <option value='CNY'>Yuan Chinês</option>
+              <option value='CHF'>Franco Suíço</option>
+              <option value='ILS'>Novo Shekel Israelense</option>
+              <option value='BTC'>Bitcoin</option>
+              <option value='ETH'>Ethereum</option>
+              <option value='LTC'>Litecoin</option>
+              <option value='DOGE'>Dogecoin</option>
+              <option value='XRP'>XRP</option>
+        </select>  
+
+      <button onclick="converter()">Calcular</button>
+      <h3 id="saida"></h3> 
+      <span id="atualizacao"></span>
+  </div>  
+
+</body>
+</html>
