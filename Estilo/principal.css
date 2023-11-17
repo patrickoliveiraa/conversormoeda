@@ -10,10 +10,17 @@ header {
   text-align: center;
   font-size: 28px;
   color: white;
-  background-color: #badbcc;
+  background-color: #8bbdff;
   width: auto;
 }
 
+li a{
+  background-color: rgb(74, 86, 255);
+  color: black;
+  padding: 3px;
+  border: 5px, #000000;
+  border-radius: 15px;
+}
 #insta {
   width: 35px;
   height: 35px;
@@ -50,7 +57,7 @@ header nav ul {
 #interface,
 #container,
 #contato {
-  background-color: #8bffcb;
+  background-color: #8bbdff;
   padding: 20px;
   margin: 5% auto;
   text-align: auto;
@@ -62,7 +69,7 @@ header nav ul {
 input,
 select,
 label {
-  width: 100%;
+  width: 150px;
   height: 40px;
   font-size: 22px;
   padding: 4px;
@@ -73,7 +80,7 @@ div button {
   padding: 7px;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 6px;
-  background-color: rgb(108, 255, 231);
+  background-color: rgb(108, 255, 169);
   font-size: 24px;
   width: 100%;
   margin: 30px 0px 0px 0px;
@@ -83,7 +90,7 @@ button:hover {
   color: rgb(2, 2, 2);
   border: 2px solid black;
   transition: 350ms;
-  background-color: rgb(0, 255, 157);
+  background-color: rgb(0, 147, 192);
 }
 
 button:active {
@@ -117,22 +124,6 @@ button:active {
 #sucesso {
   color: #0f5132;
   background-color: #d1e7dd;
-  border-color: #badbcc;
-}
+  border-color: #badbcc;}
 
-@media screen and (max-width: 500px) {
-  /* Estilos específicos para telas menores que 500px */
-  body {
-    max-width: 100%;
-  }
-
-  #interface,
-  #container,
-  #contato {
-    margin: 5% 5%;
-  }
-
-  div button {
-    width: 100%;
-  }
-}
+  
