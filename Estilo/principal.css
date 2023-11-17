@@ -47,7 +47,9 @@ header nav ul li a {
   color: black;
   padding: 3px;
   border: 1px solid #000000;
-  border-radius: 15px;
+  border-radius: 3px;
+  display: block;
+  
 }
 
 header nav ul {
@@ -71,6 +73,16 @@ header nav ul {
   background-color: #8bbdff;
   padding: 20px;
   margin: 1px;
+  text-align: auto;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  min-height: 250px;
+
+}
+#objetivo{
+  background-color: #87b0e5;
+  padding: 20px;
+  margin: 5px;
   text-align: auto;
   border: 2px solid #000000;
   border-radius: 20px;
@@ -146,9 +158,11 @@ button:active {
   border-color: #badbcc;
 }
 footer{
-  background-color: rgb(110, 110, 110);
+  background-color: rgb(255, 255, 255);
   border: 2px #000000;
   border-radius: 20px;
+  min-width: 100%;
+  min-height: 130px;
 }
 footer ul {
   list-style: none;
@@ -159,12 +173,14 @@ footer ul {
 footer ul li {
   /* Remova a propriedade list-style daqui */
   margin: 5px;
+  display: inline-block;
 }
 
 footer ul li a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 3px;
   display: block;  
   border: #000000;
+  margin: 2px;
 }
