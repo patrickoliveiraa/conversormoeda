@@ -4,4 +4,5 @@ Conversor de moedas com api da awesomeapi (gratuita)
 <p>
 
 Feito com: Javascript + CSS + HTML
+ Feito por Patrick Silva, João Silveira e Eduardo Rivieri 
 
