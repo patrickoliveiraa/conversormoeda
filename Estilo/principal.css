@@ -1,5 +1,7 @@
+/* Importa a fonte Archivo do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
 
+/* Configurações gerais para o corpo da página */
 body {
   max-width: 500px;
   margin: auto;
@@ -7,6 +9,7 @@ body {
   font-family: Archivo, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* Estilo do cabeçalho */
 header {
   padding: 2px;
   text-align: center;
@@ -17,7 +20,7 @@ header {
   border: #000000, 2px;
 }
 
-
+/* Estilo dos ícones sociais */
 #insta {
   width: 35px;
   height: 35px;
@@ -40,6 +43,7 @@ header {
   height: 110px;
 }
 
+/* Estilo da barra de navegação no cabeçalho */
 header nav ul li a {
   text-decoration: none;
   list-style: none;
@@ -49,15 +53,16 @@ header nav ul li a {
   border: 1px solid #000000;
   border-radius: 3px;
   display: block;
-  
 }
 
+/* Estilo da lista de navegação no cabeçalho */
 header nav ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
 
+/* Estilo das seções principais da página */
 #interface,
 #contato {
   background-color: #8bbdff;
@@ -69,6 +74,7 @@ header nav ul {
   min-height: 250px;
 }
 
+/* Estilo do container */
 #container {
   background-color: #8bbdff;
   padding: 20px;
@@ -77,9 +83,10 @@ header nav ul {
   border: 2px solid #000000;
   border-radius: 20px;
   min-height: 250px;
-
 }
-#objetivo{
+
+/* Estilo da seção de objetivo */
+#objetivo {
   background-color: #87b0e5;
   padding: 20px;
   margin: 5px;
@@ -87,9 +94,9 @@ header nav ul {
   border: 2px solid #000000;
   border-radius: 20px;
   min-height: 250px;
-
 }
 
+/* Estilo comum para campos de entrada e rótulos */
 input,
 label {
   width: 150px;
@@ -99,6 +106,7 @@ label {
   margin: 4px;
 }
 
+/* Estilo da lista suspensa */
 select {
   width: auto;
   height: 40px;
@@ -107,6 +115,7 @@ select {
   margin: 2px;
 }
 
+/* Estilo do botão */
 div button {
   padding: 7px;
   border: 2px solid rgb(0, 0, 0);
@@ -117,6 +126,7 @@ div button {
   margin: 30px 0px 0px 0px;
 }
 
+/* Efeito de hover no botão */
 button:hover {
   color: rgb(2, 2, 2);
   border: 2px solid black;
@@ -124,19 +134,23 @@ button:hover {
   background-color: rgb(0, 147, 192);
 }
 
+/* Efeito de clique no botão */
 button:active {
   background-color: rgb(220, 255, 24);
 }
 
+/* Estilo do título principal */
 #titulo {
   margin: 0px 0px 30px 0px;
 }
 
+/* Estilo da mensagem de atualização */
 #atualizacao {
   margin-top: 5px;
   color: gray;
 }
-/*Formatação da caixa de alerta*/
+
+/* Estilo da caixa de alerta */
 .alerta {
   position: relative;
   padding: 1rem 1rem;
@@ -146,41 +160,48 @@ button:active {
   display: none;
 }
 
+/* Estilo para mensagem de falha na caixa de alerta */
 #falha {
   color: #842029;
   background-color: #f8d7da;
   border-color: #f5c2c7;
 }
 
+/* Estilo para mensagem de sucesso na caixa de alerta */
 #sucesso {
   color: #0f5132;
   background-color: #d1e7dd;
   border-color: #badbcc;
 }
-footer{
+
+/* Estilo do rodapé */
+footer {
   background-color: rgb(255, 255, 255);
   border: 2px #000000;
   border-radius: 20px;
   min-width: 100%;
   min-height: 130px;
 }
+
+/* Estilo da lista no rodapé */
 footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
+/* Estilo dos itens da lista no rodapé */
 footer ul li {
-  /* Remova a propriedade list-style daqui */
   margin: 5px;
   display: inline-block;
 }
 
+/* Estilo dos links nos itens da lista no rodapé */
 footer ul li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
   padding: 3px;
-  display: block;  
+  display: block;
   border: #000000;
   margin: 2px;
 }

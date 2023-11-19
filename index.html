@@ -2,43 +2,57 @@
 <html lang="pt-BR">
 
 <head>
-  <link rel="icon" type="image/x-icon"
-    href="ico/59825-litecoin-gold-exchange-bitcoin-sales-cryptocurrency-coinbase_32x32.ico">
+  <!-- Ícone que aparecerá na aba do navegador -->
+  <link rel="icon" type="image/x-icon" href="ico/59825-litecoin-gold-exchange-bitcoin-sales-cryptocurrency-coinbase_32x32.ico">
+  <!-- Definindo o conjunto de caracteres como UTF-8 -->
   <meta charset="UTF-8">
+  <!-- Título da página que aparecerá na aba do navegador -->
   <title>Conversor de Moedas</title>
+  <!-- Configuração da visualização em dispositivos móveis -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- Inclusão do arquivo de estilo principal da página -->
   <link rel="stylesheet" href="Estilo/principal.css">
+  <!-- Inclusão da biblioteca jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Inclusão do arquivo de script do conversor -->
   <script src="conversor.js"></script>
+  <!-- Cabeçalho da página -->
   <header>
+    <!-- Barra de navegação -->
     <nav>
+      <!-- Lista de links para diferentes seções do site -->
       <ul>
+        <!-- Link para a seção de início -->
         <li><a href="#inicio">Início</a></li>
+        <!-- Link para a página "Sobre" -->
         <li><a href="Sobre.html">Sobre</a></li>
+        <!-- Link para a página "Contato" -->
         <li><a href="Contato.html">Contato</a></li>
       </ul>
     </nav>
   </header>
-
-
 </head>
 
 <body>
-
+  <!-- Corpo principal da página -->
   <div id="interface">
+    <!-- Título principal da página -->
     <h1 id="titulo">💱 Conversor de Moedas</h1>
-    <label>Valor:</label> </span>
+    <!-- Rótulo e campo de entrada para o valor a ser convertido -->
+    <label for="entrada">Valor:</label>
     <input id="entrada" type="number">
-
+    <!-- Lista suspensa para a escolha da moeda -->
     <select id="moedas">
+      <!-- Opção padrão sem valor selecionado -->
       <option value='NULL'>Selecione</option>
+      <!-- Opções para diferentes moedas -->
       <option value='EUR'>Euro</option>
-      <option value='USD'>Dólar</option>
-      <option value='USDT'>Dólar turismo</option>
-      <option value='CAD'>Dólar canadense</option>
-      <option value='AUD'>Dólar australiano</option>
+      <option value='USD'>Dólar Americano</option>
+      <option value='USDT'>Dólar Turismo</option>
+      <option value='CAD'>Dólar Canadense</option>
+      <option value='AUD'>Dólar Australiano</option>
       <option value='GBP'>Libra Esterlina</option>
-      <option value='ARS'>Peso argentino</option>
+      <option value='ARS'>Peso Argentino</option>
       <option value='JPY'>Iene Japonês</option>
       <option value='CNY'>Yuan Chinês</option>
       <option value='CHF'>Franco Suíço</option>
@@ -49,13 +63,17 @@
       <option value='DOGE'>Dogecoin</option>
       <option value='XRP'>XRP</option>
     </select>
-
+    <!-- Botão que aciona a função de conversão -->
     <button onclick="converter()">Calcular</button>
+    <!-- Exibição do resultado da conversão -->
     <h3 id="saida"></h3>
+    <!-- Exibição do horário de atualização -->
     <span id="atualizacao"></span>
   </div>
 
+  <!-- Rodapé da página -->
   <footer>
+    <!-- Lista de links no rodapé -->
     <ul>
       <li><a href="#">Compromisso social</a></li>
       <li><a href="#">A empresa</a></li>
@@ -64,8 +82,8 @@
       <li><a href="#">Metas de ESG</a></li>
       <li><a href="#">Objetivos e Metas</a></li>
     </ul>
-    <p>💱Conversor de moedas 2023©</p>
-
+    <!-- Informação adicional no rodapé -->
+    <p>💱 Conversor de moedas 2023©</p>
   </footer>
 </body>
 
